@@ -2,13 +2,16 @@ import img1 from './img/tour-1.jpeg'
 import img2 from './img/tour-2.jpeg'
 import img3 from './img/tour-3.jpeg'
 import img4 from './img/tour-4.jpeg'
-
+import img5 from './img/tour-5.jpeg'
+import img6 from './img/tour-6.jpeg'
+import img7 from './img/tour-7.jpeg'
+import img8 from './img/tour-8.jpeg'
 
 export const pageLinks = [
   { id: 1, href: '#home', content: 'home' },
   { id: 2, href: '#about', content: 'about' },
   { id: 3, href: '#services', content: 'services' },
-  { id: 4, href: '#featured', content: 'featured' },
+  { id: 4, href: '#tour', content: 'featured' },
   { id: 5, href: '#gallery', content: 'gallery' },
 ]
 
@@ -80,4 +83,15 @@ export const tours = [
     duration: '20 Days',
     cost: 'From $3300',
   },
+]
+
+export const gallery = [
+  {id:1, img: img1},
+  {id:2, img: img2},
+  {id:3, img: img3},
+  {id:4, img: img4},
+  {id:5, img: img5},
+  {id:6, img: img6},
+  {id:7, img: img7},
+  {id:8, img: img8},
 ]

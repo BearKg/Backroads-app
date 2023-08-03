@@ -3,7 +3,7 @@ import About from './component/About'
 import Services from './component/Services'
 import Tours from './component/Tours'
 import Contact from './component/Contact'
-import Gallery from './component/Gallerys'
+import Gallery from './component/Gallery'
 import Footer from './component/Footer'
 
 function App() {
